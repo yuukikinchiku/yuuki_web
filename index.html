@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>kinchiku Yuuki</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="module" src="firebase.js"></script>
+        <script type="module" src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <section class="banner">
+            <header>
+                <div>
+                    <div id="navigation" class="navigation">
+                        <div class="menuToggle"></div>
+                        <ul style="display: block; padding: 0px;">
+                            <li>
+                                <a href="https://www.youtube.com/@yuuki_room">
+                                    <span class="title">Youtube</span>
+                                    <span class="title">></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/yuuki__kinchiku">
+                                    <span class="title">Twitter</span>
+                                    <span class="title">></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/yuuki__kinchiku">
+                                    <span class="title">Instagram</span>
+                                    <span class="title">></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.tiktok.com/@yuuki__kinchiku">
+                                    <span class="title">Tiktok</span>
+                                    <span class="title">></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://onlyfans.com/yuuki_kinchiku">
+                                    <span class="title">OnlyFans</span>
+                                    <span class="title">></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ykinchiku.booth.pm/">
+                                    <span class="title">Shop</span>
+                                    <span class="title">></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.amazon.co.jp/hz/wishlist/ls/223KH2VBZTSQZ?ref_=wl_share">
+                                    <span class="title">Gift</span>
+                                    <span class="title">></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <span></span>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="https://ykinchiku.booth.pm/" target="_blank">Shop</a></li>
+                        <li><a href="https://www.amazon.co.jp/hz/wishlist/ls/223KH2VBZTSQZ?ref_=wl_share" target="_blank">Gift</a></li>
+                    </ul>
+                </div>
+            </header>
+            <img src="image/img_bg.png" class="colors">
+            <img src="image/img_main.png" class="men"> 
+            <div class="content">
+                <img class="profile" src="image/profile.png">
+                <h3>私のプロフィールへようこそ</h3>
+                <h2>筋築家 <span id="text">ゆうき</span></h2>
+                <p>Japanese | 185cm | 80kg</p>
+            </div>
+          
+            <ul class="sci">
+                <li><a href="https://www.youtube.com/@yuuki_room" target="_blank"><img src="image/ic_youtube.svg"></a></li>
+                <li><a href="https://twitter.com/yuuki__kinchiku" target="_blank"><img src="image/ic_twitter.svg"></a></li>
+                <li><a href="https://www.instagram.com/yuuki__kinchiku" target="_blank"><img src="image/ic_instagram.svg"></a></li>
+                <li><a href="https://www.tiktok.com/@yuuki__kinchiku" target="_blank"><img src="image/ic_tictok.svg"></a></li>
+                <li><a href="https://onlyfans.com/yuuki_kinchiku" target="_blank"><img src="image/ic_only_fans.svg"></a></li>
+            </ul>
+        </section>
+        <section class="sub">
+            <div class="sub_title">
+                <span style="text-align: center;">のんびり日常を投稿していきます🌿</span>
+                <span style="text-align: center;">いろんなテーマでポスティングをしています</span>
+            </div>
+            <div class="scroll">
+                <span>建築家</span>
+                <span>筋肉</span>
+                <span>勉強会</span>
+                <span>サウナ</span>
+                <span>運動</span>
+                <span>旅行</span>
+                <span>Vlog</span>
+                <span>コスプレ</span>
+                <span>Look book</span>
+                <span>日本</span>
+                <span>フィリピン</span>
+                <span>ジブリ</span>
+                <span>建築物</span>
+                <span>腹筋</span>
+                <span>写真</span>
+                <span>ショーツ</span>
+                <span>Q&A</span>
+                <span>呪術廻戦</span>
+                <span>マッシュル</span>
+                <span>チェンソーマン</span>
+                <span>スパイダーマン</span>
+                </div>
+            </div>
+        </section>
+        <section class="introduce">
+            <div class="sub_title">
+                <span>VIDEO 📹</span>
+            </div>
+            <div class="container">
+                <img id="prev" src="image/ic_back.svg" style="width: 50px; margin-left: 10px; margin-right: 15px;">
+                <div id="video-container">
+                    <iframe id="video" src="https://www.youtube.com/embed/XVHrqGHkhnI" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <img id="next" src="image/ic_next.svg" style="width: 50px; margin-left: 15px; margin-right: 10px;">
+            </div>
+            <div id="video_tab"></div>
+            <div class="sub_title" style="margin-top: 50px;">
+                <span>SHORTS 🎵</span>
+                <div id="shorts" class="shorts"></div>
+            </div>
+            <div class="sub_title" style="margin-top: 50px;">
+                <span>IMAGE 📷</span>
+            </div>
+            <table class="photo-table">
+                <tr>
+                    <td colspan="6" rowspan="4"><img class="gallery" src="image/image01.jpeg" data-index="0"></td>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image03.jpeg" data-index="1"></td>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image04.jpeg" data-index="2"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image05.jpeg" data-index="3"></td>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image06.jpeg" data-index="4"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image07.jpeg" data-index="5"></td>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image08.jpeg" data-index="6"></td>
+                    <td colspan="6" rowspan="4"><img class="gallery" src="image/image02.jpeg" data-index="7"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image09.jpeg" data-index="8"></td>
+                    <td colspan="3" rowspan="2"><img class="gallery" src="image/image10.jpeg" data-index="9"></td>
+                </tr>
+                <tr></tr>
+                <tr style="visibility: hidden; height: 0px;">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <div id="bigImageContainer">
+            <img id="bigImagePrev" src="image/ic_back.svg" style="height: 50px; width: 50px; margin-left: 10px; margin-right: 15px;">
+            <img id="bigImage" src="image/image09.jpeg">
+            <img id="bigImageNext" src="image/ic_next.svg" style="height: 50px; width: 50px; margin-left: 15px; margin-right: 10px;">
+        </div>
+        <div id="mobileImage"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            resizeIframe();
+        });
+        window.addEventListener('resize', resizeIframe);
+
+        function resizeIframe() {
+            var videoIframe = document.querySelector('#video-container');
+            responsiveHeight = videoIframe.offsetWidth * 0.5625;
+            videoIframe.style.height = responsiveHeight + "px";
+        }
+    </script>
+    </body>
+</html>
