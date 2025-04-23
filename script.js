@@ -1,6 +1,6 @@
 let currentLang = 'jp';
 let youtubeList = [
-    "https://www.youtube.com/embed/LDZi5-e_cLA",
+    "https://www.youtube.com/embed/cvv8x-PDD3w",
     "https://www.youtube.com/embed/bPgJ4xrWx1g",
     "https://www.youtube.com/embed/UlFaDqslQb4",
     "https://www.youtube.com/embed/XVHrqGHkhnI",
@@ -369,12 +369,12 @@ function fetchList() {
     ];
     eventList = [
         {
-            image: "image/img_event06.png",
-            brand: "KANGOL",
-            startDate: "2025.03.04",
-            endDate: "2025.04.15",
-            title: i18n[currentLang].kangol2Title,
-            content: i18n[currentLang].kangol2content,
+            image: "image/img_event07.png",
+            brand: "LASWON PRINT",
+            startDate: "2025.04.23",
+            endDate: "",
+            title: i18n[currentLang].Laswon4Title,
+            content: i18n[currentLang].Laswon4Content,
             link: "https://kangolreward.jp/SHOP/202372/241278/list.html"
         },
         {
@@ -382,9 +382,9 @@ function fetchList() {
             brand: "LASWON PRINT",
             startDate: "2024.12.30",
             endDate: "",
-                    title: i18n[currentLang].kangol2Title,
-                    content: i18n[currentLang].kangol2content,
-            link: "https://lawson-print.com/products/describe/1050790009"
+                    title: i18n[currentLang].Laswon3Title,
+                    content: i18n[currentLang].Laswon3Content,
+            link: "https://lawson-print.com/products/describe/1050790010"
         },
         {
             image: "image/img_event04.png",
@@ -403,6 +403,15 @@ function fetchList() {
             title: i18n[currentLang].Laswon2Title,
             content: i18n[currentLang].Laswon2Content,
             link: "https://lawson-print.com/products/describe/1050790001"
+        },
+        {
+            image: "image/img_event06.png",
+            brand: "KANGOL",
+            startDate: "2025.03.04",
+            endDate: "2025.04.15",
+            title: i18n[currentLang].kangol2Title,
+            content: i18n[currentLang].kangol2content,
+            link: "https://kangolreward.jp/SHOP/202372/241278/list.html"
         },
         {
             image: "image/img_event02.png",
