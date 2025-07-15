@@ -216,7 +216,7 @@ body
 #subscription_items
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 32px;
 }
 .subscription_item
@@ -248,6 +248,7 @@ body
     justify-content: center;
     align-items: flex-end;
     margin: 48px 0;
+    text-align: center;
 }
 .subscription_price span:nth-child(1)
 {

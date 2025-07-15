@@ -1,5 +1,6 @@
 let currentLang = 'jp';
 let youtubeList = [
+    "https://www.youtube.com/embed/ZViKbW7gQ6Q",
     "https://www.youtube.com/embed/cvv8x-PDD3w",
     "https://www.youtube.com/embed/bPgJ4xrWx1g",
     "https://www.youtube.com/embed/UlFaDqslQb4",
@@ -147,13 +148,15 @@ function fetchSubscriptionList() {
     subscription_items.replaceChildren();
 
     subscriptionList.forEach(item => {
-        const html = `
+        let html = `
           <div class="subscription_item">
               <div class="subscription_title">${item.title}</div>
               <div class="subscription_price">
-                  <span>${item.price}</span>
-                  <span>/ month</span>
-              </div>
+                  <span>${item.price}</span>`
+        if(item.title != "TikTok") {
+            html += `<span>/ month</span>`
+        }
+        html += `</div>
               <div class="description_list">
                   ${item.items.map(data => `
                     <div class="description">
@@ -365,6 +368,30 @@ function fetchList() {
             ],
             hint: i18n[currentLang].instagramNote,
             link: "https://www.instagram.com/yuuki__kinchiku/"
+        },
+        {
+            title: "TikTok",
+            price: i18n[currentLang].tiktokPrice,
+            items: [
+                {
+                    info: i18n[currentLang].tiktokOk1,
+                    isOk: true
+                },
+                {
+                    info: i18n[currentLang].tiktokOk2,
+                    isOk: true
+                },
+                {
+                    info: i18n[currentLang].tiktokOk3,
+                    isOk: true
+                },
+                {
+                    info: i18n[currentLang].tiktokOk4,
+                    isOk: true
+                }
+            ],
+            hint: "",
+            link: "https://www.tiktok.com/@yuuki__kinchiku"
         }
     ];
     eventList = [
