@@ -396,6 +396,15 @@ function fetchList() {
     ];
     eventList = [
         {
+            image: "image/img_event08.png",
+            brand: "Fan Meeting",
+            startDate: "2025.10.05",
+            endDate: "2025.10.05",
+            title: i18n[currentLang].fanMeeting2Title,
+            content: i18n[currentLang].fanMeeting2Content,
+            link: "https://haveagood.holiday/travel/products/kinchikuyuuki"
+        },
+        {
             image: "image/img_event07.png",
             brand: "LASWON PRINT",
             startDate: "2025.04.23",
@@ -445,8 +454,8 @@ function fetchList() {
             brand: "Fan Meeting",
             startDate: "2025.02.27",
             endDate: "2025.02.27",
-            title: i18n[currentLang].Laswon1Title,
-            content: i18n[currentLang].Laswon1Content,
+            title: i18n[currentLang].fanMeeting1Title,
+            content: i18n[currentLang].fanMeetingContent,
             link: "https://travel.haveagood.holiday/specials/yuuki__kinchiku"
         },
         {
